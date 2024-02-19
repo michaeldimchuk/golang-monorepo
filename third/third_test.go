@@ -7,5 +7,5 @@ import (
 )
 
 func TestThird(test *testing.T) {
-	require.Equal(test, "third version 0: second module, version 0: first function, release 0", Third())
+	require.Equal(test, "third version 0: second module, version 0: first function, release 2", Third())
 }
